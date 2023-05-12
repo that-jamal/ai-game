@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#output {
+    margin-top: 1em;
+    padding: 0.5em;
+    background-color: #f0f0f0;
+}
+
+input[type="text"] {
+    width: 100%;
+    font-size: 1.2em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: none;
+}
